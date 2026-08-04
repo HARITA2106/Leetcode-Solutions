@@ -1,3 +1,31 @@
+<h2>Two Sum - Intuition and Approach</h2>
+
+<p>
+The goal is to find two numbers in the array whose sum is equal to the target value.
+</p>
+
+<p>
+For each number nums[i], we calculate the required value using:
+complement = target - nums[i].
+</p>
+
+<p>
+We use a hash map (JavaScript object) to store numbers and their indices while traversing the array.
+</p>
+
+<p>
+If the complement already exists in the hash map, then we have found the two indices that add up to the target.
+</p>
+
+<p>
+This approach is more efficient than checking every pair because it only scans the array once.
+</p>
+
+<p>
+Time Complexity: O(n)<br>
+Space Complexity: O(n)
+</p>
+
 <h2><a href="https://leetcode.com/problems/two-sum">1. Two Sum</a></h2><h3>Easy</h3><hr><p>You are given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
