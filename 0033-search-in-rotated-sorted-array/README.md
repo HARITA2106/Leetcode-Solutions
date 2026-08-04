@@ -1,3 +1,35 @@
+<h2>Search in Rotated Sorted Array</h2>
+
+<p>
+The array is originally sorted in ascending order, but it may be rotated at some unknown position. Because of this rotation, a normal binary search cannot be applied directly.
+</p>
+
+<p>
+The key observation is that in every step of binary search, at least one half of the array is always sorted. We can use this property to decide which half may contain the target element.
+</p>
+
+<p>
+We calculate the middle index and compare nums[mid] with the target. If nums[mid] is equal to the target, we return the index immediately.
+</p>
+
+<p>
+If the left half from nums[low] to nums[mid] is sorted, then we check whether the target lies within this range. If it does, we search in the left half; otherwise, we search in the right half.
+</p>
+
+<p>
+If the right half from nums[mid] to nums[high] is sorted, then we check whether the target lies within that range. If it does, we search in the right half; otherwise, we search in the left half.
+</p>
+
+<p>
+This method reduces the search space by half in every iteration, so it works efficiently even for rotated arrays.
+</p>
+
+<p>
+<b>Approach:</b> Modified Binary Search<br>
+<b>Time Complexity:</b> O(log n)<br>
+<b>Space Complexity:</b> O(1)
+</p>
+
 <h2><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">33. Search in Rotated Sorted Array</a></h2><h3>Medium</h3><hr><p>There is an integer array <code>nums</code> sorted in ascending order (with <strong>distinct</strong> values).</p>
 
 <p>Prior to being passed to your function, <code>nums</code> is <strong>possibly left rotated</strong> at an unknown index <code>k</code> (<code>1 &lt;= k &lt; nums.length</code>) such that the resulting array is <code>[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]</code> (<strong>0-indexed</strong>). For example, <code>[0,1,2,4,5,6,7]</code> might be left rotated by&nbsp;<code>3</code>&nbsp;indices and become <code>[4,5,6,7,0,1,2]</code>.</p>
