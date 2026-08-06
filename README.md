@@ -14,6 +14,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Sorting
 |  |
 | ------- |
@@ -53,8 +54,29 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0234-palindrome-linked-list) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Recursion
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0234-palindrome-linked-list) |
+## Tree
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Depth-First Search
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Binary Tree
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/HARITA2106/Leetcode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 <!---LeetCode Topics End-->
